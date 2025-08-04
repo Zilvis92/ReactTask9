@@ -1,0 +1,25 @@
+.products-wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+.product {
+  background-color: #f4f4f4;
+  border: 1px solid #ddd;
+  padding: 16px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+}
+
+.product:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.product h3 {
+  margin-bottom: 8px;
+  color: #2c3e50;
+}
